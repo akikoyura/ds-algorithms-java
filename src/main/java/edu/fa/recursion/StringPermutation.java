@@ -33,9 +33,8 @@ public class StringPermutation {
     }
 
     public static String swap(String str, int i, int j) {
-        char temp;
         char[] charArray = str.toCharArray();
-        temp = charArray[i];
+        char temp = charArray[i];
         charArray[i] = charArray[j];
         charArray[j] = temp;
         return String.valueOf(charArray);
